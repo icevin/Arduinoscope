@@ -6,11 +6,16 @@ Wiring:
 - Tie circuit ground & Arduino ground
 - Probe to A0
 
-Time base vs baud rate:
-
-
 Setup:
-- Select a time base, and set the "rate" variable equal to the corresponding baud rate
 - Download code to Arduino
 - Open Tools -> Serial Plotter
-- Select baud rate equal to what was selected earlier ("rate" variable)
+- Select baud rate equal to "rate" variable (default 19200)
+
+Compatibility (Tested):
+- Arduino Uno
+- Arduino Zero
+- Arduino Nano
+
+Should work with any Arduino/Arduino compatible board, that has analog inputs
+
+Time base - approximately 5us
