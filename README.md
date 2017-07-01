@@ -1,5 +1,5 @@
 # Arduinoscope
-Using an arduino analog input as a crude oscilliscope
+Using an Arduino analog input + Serial Plotter as a crude oscilliscope
 
 Wiring:
 - Pull down 2M ohm resistor (A0 - > Ground)
