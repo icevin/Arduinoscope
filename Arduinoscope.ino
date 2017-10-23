@@ -3,7 +3,6 @@ void setup() {
 }
 
 void loop() {
-    int in = analogRead(A0);
-    float val = in * (5.0 / 1023.0);
+    float val = analogRead(A0) * (5.0 / 1023.0);
     Serial.println(val);
 }
